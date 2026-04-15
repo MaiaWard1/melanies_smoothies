@@ -9,8 +9,6 @@ st.write(
   """
 )
 
-search_on=pd_df.loc[pd_df['FRUIT_NAME'] == fruit_chosen, 'SEARCH_ON'].iloc[0]
-
 name_on_order = st.text_input("Name on Smoothie:")
 st.write("The name on your Smoothie will be:", name_on_order)
 
